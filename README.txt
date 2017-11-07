@@ -5,6 +5,8 @@ Java port of shader-printf created by Pauli "msqrt" Kemppinen for LWJGL.
 
 The original comments have been kept and added comments are prefixed by '(added)'
 
+Original version: https://github.com/msqrt/shader-printf
+
 Original readme.txt:
 =======
 Simple printf functionality for GLSL.
