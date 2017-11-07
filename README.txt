@@ -1,9 +1,9 @@
 Java port of shader-printf created by Pauli "msqrt" Kemppinen for LWJGL.
 'shaderprintf.h' is now 'shaderprintf.ShaderPrintf'
-'main.cpp' is now 'Main' and is in the test module
+'main.cpp' is now 'Main' and in the test module
 'window.h' has changed completely to use GLFW
 
-The original comments have been kept and added comment are prefixed by '(added)'
+The original comments have been kept and added comments are prefixed by '(added)'
 
 Original readme.txt:
 =======
