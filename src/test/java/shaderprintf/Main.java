@@ -9,9 +9,9 @@ import static shaderprintf.ShaderPrintf.*;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("h -> "+((char)104));
         Window.setupGL(1280, 720, "printf test");
 
+        // (added) 'createShader' uses the methods in ShaderPrintf to handle the printf calls
         int vertex = Window.createShader("vertex.glsl", GL_VERTEX_SHADER), fragment = Window.createShader("fragment.glsl", GL_FRAGMENT_SHADER);
         int program = glCreateProgram();
 
@@ -54,11 +54,6 @@ public class Main {
 
             Window.swapBuffers();
 
-            try {
-                Thread.sleep(5);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
             loop = Window.shouldContinue();
         }
 
